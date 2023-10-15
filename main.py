@@ -112,7 +112,7 @@ def start_video():
                     else:
                         game_over_text = "It's a draw!"
 
-            font = cv2.FONT_HERSHEY_COMPLEX
+            # font = cv2.FONT_HERSHEY_COMPLEX
 
             if not hold_for_play and not timer_started:
                 cv2.putText(frame,
